@@ -1,0 +1,34 @@
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.floating-button{
+    position: absolute;
+    z-index: 999;
+    left: 50px;
+    top: 10px;
+}
+
+.wrapper.style2{
+    /* This is an example of how to change colors in the template */
+    background-color: #2e7947;
+}
+
+.custom-banner{
+    /*Change the background image here*/
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3d/Flag-map_of_the_world_%282017%29.png')!important;
+    background-size: cover!important;
+
+    /* Original background, for reference
+    background-attachment: scroll, scroll, scroll, fixed;
+    background-color: #645862;
+    background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+    background-position: bottom left, bottom right, top left, top center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 25em, 25em, auto, cover;
+    */
+
+    width: 100%;
+    height: 100%;
+}
