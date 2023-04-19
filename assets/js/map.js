@@ -26,7 +26,7 @@ var colombiaRoads = new ol.layer.Image({
 var colombiaRivers = new ol.layer.Image({
     source: new ol.source.ImageWMS({
         url: 'https://www.gis-geoserver.polimi.it/geoserver/wms',
-        params: { 'LAYERS': 'gis:COL_water_lines' }
+        params: { 'LAYERS': 'gis:COL_rivers' }
     }),
     minResolution: 1000,
     maxResolution: 5000
