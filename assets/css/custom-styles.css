@@ -83,3 +83,12 @@
 }
 
 /*Add your new styles after this line*/
+.custom-control {
+    bottom: 30px;
+    position: absolute;
+    right: 15px;
+    background: #2e7947;
+    color: white;
+    border: 2px solid cadetblue;
+    padding: 10px;
+}
